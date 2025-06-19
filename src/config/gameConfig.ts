@@ -1,0 +1,6 @@
+export const GAME_CONFIG = {
+    ROOM_KEY: 'GAME2025',
+    MAX_PLAYERS: 4,
+    QUESTIONS_COUNT: 3
+}
+
