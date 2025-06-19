@@ -8,10 +8,10 @@ class GameStore {
 	players: Map<string, Player> = new Map()
 	private currentQuestionIndex = 0
 	private questions = [
-        "What's your favorite color?",
-        "What did you have for breakfast?",
-        "What's your dream vacation destination?",
-        "What's your favorite movie genre?"
+        "Who are you? Let everyone know your character.",
+        "Who do you think might be the infected one?",
+        "Who's talking to much — or too little?",
+        "Who do you think is the most suspicious?",
     ]
 	private currentGameSet: string | null = null
 

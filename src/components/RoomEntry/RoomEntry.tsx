@@ -82,7 +82,7 @@ const RoomEntry = () => {
                         autoComplete='off'
 					/>
 
-					<p className='md:text-[3.5rem] text-[2rem] text-center mt-6'>Choose a nickname</p>
+					<p className='md:text-[3.5rem] text-[2rem] text-center font-[600]  mt-6'>Choose a nickname</p>
 					<input
 						type='text'
 						className='md:max-w-[26.5rem] max-w-full border-2 border-white outline-none text-center h-3.25 w-full mt-1.5 rounded-3xl text-base placeholder:text-white'
