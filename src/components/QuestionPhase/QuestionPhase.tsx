@@ -95,7 +95,7 @@ const QuestionPhase = ({ role }: IRoleRevealProps) => {
 			)}
 
 			{showQuestion && (
-				<div className='w-screen min-h-screen flex lg:flex-row flex-col-reverse items-center justify-center lg:gap-[8.5rem] gap-6 px-1.5 py-3'>
+				<div className='w-screen min-h-screen flex lg:flex-row flex-col-reverse items-center justify-center lg:gap-[8.5rem] gap-6 px-1.5 pt-2 pb-6'>
 					<motion.div
 						layoutId='game-card'
 						transition={{
